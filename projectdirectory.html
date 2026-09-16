@@ -1,102 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>https://users.wpi.edu/~tsgalletta/</title>
-    <meta http-equiv="Content-Style-Type" content="text/css">
-    <meta name="generator" content="thesitewizard.com's Layout Wizard 3.0.1">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="all" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="tswnavbar.css">
-    <meta name="author" content="tezza galletta">
+    <title>Projects — Tezza Galletta</title>
+    <meta name="author" content="Tezza Galletta">
+    <meta name="description" content="A directory of projects built by Tezza Galletta.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
   </head>
-  <body style="                background-color: #0B2447" ;="">
-    <div id="google_translate_element"></div>
-    <script type="text/javascript"> 
-        function googleTranslateElementInit() { 
-            new google.translate.TranslateElement(
-                {pageLanguage: 'en'}, 
-                'google_translate_element'
-            ); 
-        } 
-    </script>
-    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
-    </script>
-    <div id="tswcontainer">
-      <div id="tswheader">
-        <!-- start of header section -->
-        <p>Tezza's Personal Website</p>
-        <p>&nbsp;</p>
-        <!-- end of header section --> </div>
-      <div class="center border" id="tswcontent">
-        <div id="tswcontproper">
-          <!-- start of content column --> <button type="button" class="collapsible collapsible2">
-            Project Directory</button>
-            <div class="content">
-              <p>here is a directory to other projects created/worked i on during frontiers: <br><br> <a href="dice3D/dice3d.html">click
-                here to access to 3d dice roller!</a> <br><br> <a href="robpong/pong.html">click here to access rob pong!</a> <br><br>
-            <a href="flappybird/flappy.html">click here to access kirbys epic escape!</a> <br><br> <a href="https://users.wpi.edu/~alvillarreal/html/weather/weather.html">click here to access collaborative weather API site!</a> <br><br> <a href="jamesgame/numgame.html">click here for class project: james game!</a>
-          </p>
-            <style>
-              a:link {
-                color: rgb(45, 235, 219);
-                background-color: transparent;
-                text-decoration: none;
-              }
-              
-              a:visited {
-                color: rgb(86, 179, 233);
-                background-color: transparent;
-                text-decoration: none;
-              }
-              
-              a:hover {
-                color: rgb(206, 178, 250);
-                background-color: transparent;
-                text-decoration: underline;
-              }
-              
-              a:active {
-                color: rgb(133, 182, 255);
-                background-color: transparent;
-                text-decoration: underline;
-              }
-              </style>
-            </div>
-          </div>
-          <script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script> </div> </div>
-      <div id="tswsidecol">
-        <div id="tswsideproper">
-          <div id="tswcssbuttons">
-            <ul>
-              <li><a href="index.html">home</a></li>
-              <li><a href="myinterests.html">My interests</a></li>
-              <li><a href="projectdirectory.html">Project Directory</a></li>
-            </ul>
-          </div>
-        </div>
+  <body>
+    <!-- ===== Nav ===== -->
+    <nav class="nav">
+      <div class="container nav-inner">
+        <a class="brand" href="index.html">Tezza <span>Galletta</span></a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="myinterests.html">About</a></li>
+          <li><a class="active" href="projectdirectory.html">Projects</a></li>
+        </ul>
       </div>
-      <div style="clear: both;"></div>
-      <div id="tswfooter">
-        <!-- start of footer section -->
-        <p>Created on July 11th-?? 2023.</p>
-        <!-- end of footer section --> </div>
-    </div>
-    
+    </nav>
+
+    <!-- ===== Hero ===== -->
+    <header class="hero container">
+      <span class="eyebrow">Portfolio</span>
+      <h1>Project directory</h1>
+      <p class="tagline">Games and other projects I built and worked on. Starting with Frontiers and continued to present day!</p>
+    </header>
+
+    <main class="container">
+      <section>
+        <div class="section-head reveal">
+          <h2>All projects</h2>
+          <span class="rule"></span>
+        </div>
+
+        <div class="project-grid">
+          <a class="project-card reveal" href="dice3D/dice3d.html">
+            <span class="tag">Interactive</span>
+            <h3>3D Dice Roller</h3>
+            <p>A rollable three-dimensional dice built in the browser. Done during frontiers as a class activity.</p>
+            <span class="go">Open &rarr;</span>
+          </a>
+
+          <a class="project-card reveal" href="robpong/pong.html">
+            <span class="tag">Game</span>
+            <h3>Rob Pong</h3>
+            <p>A classic Pong remake. Done during Frontiers as a class activity.</p>
+            <span class="go">Play &rarr;</span>
+          </a>
+
+          <a class="project-card reveal" href="flappybird/flappy.html">
+            <span class="tag">Game</span>
+            <h3>Kirby's Epic Escape</h3>
+            <p>A Flappy Bird style game. Click to keep Kirby flying in order to get past the pipes. Used tutorial, project done in order to further learn skills</p>
+            <span class="go">Play &rarr;</span>
+          </a>
+
+          <a class="project-card reveal" href="https://users.wpi.edu/~alvillarreal/html/weather/weather.html">
+            <span class="tag">Collaboration</span>
+            <h3>Weather API Site</h3>
+            <p>A collaborative site that pulls live data from a weather API. Done during Frontiers as a class acitivty!</p>
+            <span class="go">Visit &rarr;</span>
+          </a>
+
+          <a class="project-card reveal" href="jamesgame/numgame.html">
+            <span class="tag">Class project</span>
+            <h3>James Game</h3>
+            <p>A number-guessing game built as a class project during Frontiers.</p>
+            <span class="go">Play &rarr;</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer">
+      <div class="container">
+        <p>Created July 11th, 2023 — present day. Built by Tezza Galletta.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
